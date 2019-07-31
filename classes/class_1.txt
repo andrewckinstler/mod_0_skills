@@ -7,7 +7,7 @@ available_space (float)
 clean (boolean)
 
 Methods:
-leave_door_open (subtracts from temperature)
+leave_door_open (subtracts 5.5 from temperature)
 cooking_steak (subtracts 1 from amount_of_food, increases available_space by 1)
-dinner_service (changes clean to false)
-morning_prep (increases amount_of_food by 30, subtracts 30 from available_space)
+working_dinner_service (changes clean to false)
+prepping (increases amount_of_food by 30, subtracts 30 from available_space)

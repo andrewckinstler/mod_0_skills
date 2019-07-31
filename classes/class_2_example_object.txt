@@ -1,0 +1,14 @@
+Object:
+Cook Schedule
+
+Attributes:
+in_time = (0900)
+employee_names = ("Mike, Helen, Blake, Sebastian")
+amount_of_employees = (4)
+out_time = 1800
+
+Methods:
+burning_food = in_time(0800)
+coming_in_late = amount_of_employees(3), out_time(1900), employee_names("Mike, Helen, Blake")
+hiring_employee = amount_of_employees(5), employee_names"Mike, Helen, Blake, Sebastian, Tyler")
+getting_cut = out_time(1700)

@@ -1,0 +1,14 @@
+Class:
+Schedule
+
+Attributes:
+in_time (datetime)
+employee_names (string)
+amount_of_employees (integer)
+out_time (datetime)
+
+Methods:
+burning_food (makes in_time earlier by 1hr)
+coming_in_late (reduces amount_of_employees by 1, pushes out_time back 1hr, removes name from employee_names)
+hiring_employee (increases amount_of_employees by 1, adds name to employee_names string)
+getting_cut (changes out_time to 1hr earlier)

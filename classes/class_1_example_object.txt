@@ -1,0 +1,14 @@
+Object:
+Walk-in
+
+Attributes:
+temperature = (40.5)
+amount_of_food  = (60)
+available_space = (10.5)
+clean = (false)
+
+Methods:
+leave_door_open = temperature(46.0)
+cooking_steak = amount_of_food(59), available_space(9.5)
+working_dinner_service = clean(false)
+prepping = amount_of_food(90), available_space(-20.5)
